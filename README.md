@@ -4,34 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pàgina Web M08</title>
-    <style>
-
-        h1, h2, body {
-            color: #4c0082b6;
-            font-family: Arial, sans-serif;
-
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #4B0082;
-            display: block;
-            padding: 8px 10px;
-            margin-bottom: 7px;
-            background-color: #EEEEEE;
-            border-radius: 25px;
-            transition: background-color 0.3s;
-        }
-
-        nav ul li a:hover {
-            background-color: #BBBBBB;
-        }
-    </style>
 </head>
 <body>
     <h1>Pàgina Web M08</h1>
