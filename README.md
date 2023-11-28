@@ -18,7 +18,6 @@
             <li><a href="/activitats/html/02_formato/activitat6.html">Activitat 6</a></li>
         </ul>
     </nav>
-
     <h2>03_Hipervínculos</h2>
     <nav>
         <ul>
@@ -29,7 +28,6 @@
             <li><a href="/activitats/html/03_hipervínculos/activitat3-obra-de-teatro.html">Activitat 3</a></li>
         </ul>
     </nav>
-
     <h2>04_Listas</h2>
     <nav>
         <ul>
@@ -40,7 +38,6 @@
             <li><a href="/activitats/html/04_listas/activitat5.html">Activitat 5</a></li>
         </ul>
     </nav>
-
     <h2>05_Imagenes</h2>
     <nav>
         <ul>
@@ -50,7 +47,6 @@
             <li><a href="/activitats/html/05_imagenes/activitat4.1.html">Activitat 4.1</a></li>
         </ul>
     </nav>
-
     <h2>06_Tablas</h2>
     <nav>
         <ul>
@@ -59,7 +55,6 @@
             <li><a href="/activitats/html/06_tablas/activitat3.1.html">Activitat 3.1</a></li>
         </ul>
     </nav>
-    
     <h2>07_Formularios</h2>
     <nav>
         <ul>
@@ -69,7 +64,6 @@
             <li><a href="/activitats/html/07_formularios/activitat4.html">Activitat 4</a></li>
         </ul>
     </nav>
-
     <h2>08_Multimedia</h2>
     <nav>
         <ul>
@@ -77,7 +71,6 @@
             <li><a href="/activitats/html/08_multimedia/activitat2.html">Activitat 2</a></li>
         </ul>
     </nav>
-
     <h2>09_Contenido</h2>
     <nav>
         <ul>
