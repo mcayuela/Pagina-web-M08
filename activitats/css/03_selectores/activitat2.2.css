@@ -1,0 +1,18 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 4px 4px rgb(119, 102, 211);
+    -webkit-text-stroke-color: rgb(76, 65, 137);
+    -webkit-text-stroke-width: 2px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 4px 4px rgb(102, 211, 158);
+    -webkit-text-stroke-color: rgb(57, 120, 89);
+    -webkit-text-stroke-width: 2px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller;
+}
