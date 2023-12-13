@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    color: #ffffff;
+    padding: 15px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: red;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    text-align: left;
+    max-width: 89px;
+    max-height: 24px;
+    display: inline;
+    margin-top: 12px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+form {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    display: flex;
+}
+
+::-webkit-input-placeholder {
+    color: red;
+}
+
+.content {
+    text-align: right;
+    display: inline;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 7px 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: black;
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 200px;
+    top: 0;
+    right: 0;
+}
+
+select {
+    width: 200px;
+    appearance: none;
+    background: #000000 url('fletxa.png') no-repeat right 10px center;
+    background-size: 25px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 0px;
+    font-size: 16px;
+}
+
+body {
+    position: relative;
+}
+   
+.content {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+input[type="text"] {
+    padding: 7px;
+    font-size: 16px;
+    cursor: text;
+    border-radius: 5px;
+    display: inline;
+    border-color: red;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    padding: 7px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: red;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+body {
+    background: linear-gradient(to top, transparent, rgb(0, 0, 0)), url(fondonetflix.jpg);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
