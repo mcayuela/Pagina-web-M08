@@ -2,7 +2,6 @@
     background-color: rgb(75, 75, 75);
     --tamaño-letra: small;
     --altura-rectangulo: 100px;
-    --anchura-rectangulo: calc(var(--altura-rectangulo) * 2);
 }
 
 h1, a {
@@ -16,7 +15,7 @@ body {
 }
 
 .rectangulo {
-    width: var(--anchura-rectangulo);
+    width: calc(var(--altura-rectangulo) * 2);
     height: var(--altura-rectangulo);
     background: aquamarine;
 }
