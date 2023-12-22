@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.form-login {
+    width: 350px;
+    height: auto;
+    background: transparent;
+    border: 2px;
+    border-color: black;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 7px 20px #F9F6EE;
+}
