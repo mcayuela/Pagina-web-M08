@@ -82,3 +82,26 @@ h3 {
     text-decoration-thickness: 1.5px;
     text-decoration-color: rgb(193, 193, 193);
 }
+
+.cursiva {
+    font-style: italic;
+    color: rgb(201, 201, 201);
+}
+
+.titols {
+    color: red;
+    font-weight: 300;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    text-decoration-thickness: 1.5px;
+    text-decoration-color: rgb(193, 193, 193);
+}
+
+.links {
+    color: red;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    text-decoration-thickness: 1.5px;
+    text-decoration-color: rgb(193, 193, 193);
+    font-style: italic;
+}
