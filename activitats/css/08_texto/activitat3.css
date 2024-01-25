@@ -9,10 +9,28 @@ p {
 
 .titol {
     font-size: 25px;
-    font-style: oblique;
     padding-bottom: 10px;
     letter-spacing: 3px;
     text-transform: uppercase;
+}
+
+.titol:hover {
+    font-style: italic;
+    color: blue;
+}
+
+.titoldelcapitol {
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 5px;
+}
+
+.titoldelcapitol:hover {
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 5px;
+    font-weight: bold;
+    color: red;
 }
 
 .subtitol {

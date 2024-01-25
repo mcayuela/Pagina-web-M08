@@ -1,0 +1,13 @@
+:root {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.negreta {
+    font-weight: bold;
+}
+
+.subrallat {
+    text-decoration: solid;
+    text-decoration-color: yellow;
+}
