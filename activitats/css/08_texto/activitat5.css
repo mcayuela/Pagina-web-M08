@@ -3,11 +3,18 @@
     color: rgb(0, 0, 0);
 }
 
+.segonparagraf {
+    text-transform: uppercase;
+}
+
 .negreta {
     font-weight: bold;
 }
 
+.cursiva {
+    font-style: italic;
+}
+
 .subrallat {
-    text-decoration: solid;
-    text-decoration-color: yellow;
+    color: blue;
 }
