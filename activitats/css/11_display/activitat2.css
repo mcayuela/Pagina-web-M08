@@ -1,0 +1,24 @@
+:root {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.p1 {
+    background-color: rgb(255, 255, 255);
+}
+
+.transparent {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 0, 0.3);
+}
+
+.transparent1 {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 0, 0.3);
+    display: block;
+}
+
+.transparent2 {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 0, 0.3);
+    display: grid;
+}

@@ -50,6 +50,6 @@ a:hover {
 
 .contingut{
     background-image: url(avatar1.jpg);
-    height: 100vh;
-    
+    background-size: cover;
+    background-position: center;
 }
