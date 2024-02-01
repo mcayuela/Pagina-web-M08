@@ -1,8 +1,3 @@
-:root {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-}
-
 .segonparagraf {
     text-transform: uppercase;
 }
@@ -15,6 +10,6 @@
     font-style: italic;
 }
 
-.subrallat {
-    color: blue;
+.subrrallat {
+    background-color: yellow;
 }

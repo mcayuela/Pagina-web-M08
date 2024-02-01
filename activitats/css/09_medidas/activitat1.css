@@ -1,0 +1,12 @@
+:root {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.preu {
+    font-weight: bold;
+}
+
+.preu:hover{
+    color:#ff6a00;
+    font-size:xx-large;
+}
