@@ -1,0 +1,9 @@
+:root {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.p1 {
+    background-color: rgb(154, 154, 255);
+    max-width: 5rem;
+    max-height: 10rem;
+}

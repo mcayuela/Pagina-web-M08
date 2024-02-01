@@ -1,0 +1,18 @@
+:root {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.p1 {
+    background-color: rgb(154, 154, 255);
+    max-width: 500px;
+}
+
+.p2 {
+    background-color: rgb(255, 212, 169);
+    max-width: 450px;
+}
+
+.p3 {
+    background-color: rgb(165, 255, 187);
+    max-width: 400px;
+}
