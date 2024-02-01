@@ -1,0 +1,55 @@
+p {
+    font-size: x-large;
+}
+
+.primer {
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(190, 230, 217);
+}
+
+h1 {
+    font-size: xx-large;
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.segon {
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-size: small;
+    color: black;
+}
+
+.boto {
+    display: inline-block;
+    padding: 10px 30px;
+    border: solid;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: xx-large;
+    margin-top: 100px;
+}
+
+.boto {
+    padding: 10px 30px;
+    border: solid;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+}

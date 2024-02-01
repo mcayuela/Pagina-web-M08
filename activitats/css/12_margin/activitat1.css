@@ -1,0 +1,18 @@
+:root {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    margin-block: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-inline-start: 0px;
+}
+
+h2 {
+    margin-block: 0px;
+}
+
+.espai {
+    margin-bottom: 200px;
+}
