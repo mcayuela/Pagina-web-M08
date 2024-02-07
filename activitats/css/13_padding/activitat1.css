@@ -1,0 +1,55 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+
+.contenidorpare {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.lletra {
+    align-self: center;
+    max-width: 400px;
+    margin-right: 50px;
+}
+
+.textprincipal {
+    margin-bottom: 50px;
+    font-size: x-large;
+}
+
+h1 {
+    font-size: xxx-large;
+}
+
+.foto {
+    align-self: center;
+}
+
+.boto1 {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(56, 149, 127);
+    padding: 15px 30px;
+}
+
+.boto2 {
+    text-decoration: none;
+    color: rgb(56, 149, 127);
+    padding: 15px 30px;
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+    background-color: aquamarine;
+    min-width: 100%;
+    position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+    left:0; right:0; bottom:30px;
+}
