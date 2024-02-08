@@ -1,11 +1,16 @@
 body {
-    background-color: rgb(90, 90, 90);
+    background-color: rgb(255, 255, 255);
 }
 
 h1, h2, body {
-    color: #e9cefdb6;
+    color: #000000b6;
     font-family: Arial, sans-serif;
+}
 
+h1 {
+    text-align: center;
+    display: block;
+    color: rgb(0, 0, 0);
 }
 
 nav ul {
@@ -15,15 +20,46 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #e9cefdb6;
-    display: block;
+    color: #ffffff;
+    display: inline;
     padding: 8px 10px;
-    margin-bottom: 7px;
-    background-color: #353535;
-    border-radius: 25px;
-    transition: background-color 0.3s;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(48, 47, 47);
+    border-radius: 4px;
+}
+
+div {
+    display: flex; 
+    justify-content: center;
+}
+
+.html {
+    margin-left: 100px;
+}
+
+section {
+    margin-right: 150px;
+    margin-left: 50px;
 }
 
 nav ul li a:hover {
-    background-color: #7f7f7f;
+    transition: 0.5s;
+    background-color: rgb(255, 75, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 3px 3px;
+    transform: translateY(1px);
+    transform: translateX(1px);
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+}
+
+
+
+li {
+    margin: 10px 10px 23px 10px;
+}
+
+body {
+    margin-top: 70px;
+    justify-content: center;
 }
