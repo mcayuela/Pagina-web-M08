@@ -1,0 +1,74 @@
+.missatge-cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    animation: slide-up 0.5s ease-out forwards;
+    opacity: 0;
+    z-index: 9999;
+}
+
+.acceptar-cookies:active + .missatge-cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    animation: slide-down 0.5s;
+    opacity: 0;
+    z-index: 9999;
+}
+  
+@keyframes slide-up {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+
+@keyframes slide-down {
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+}
+  
+.acceptar-cookies {
+    background-color: #cc9509;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+  
+.acceptar-cookies:hover {
+    background-color: #eccc7e;
+    color: black;
+}
+
+a, button {
+    text-decoration: none;
+    color: aquamarine;
+}

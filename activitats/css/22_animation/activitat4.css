@@ -1,0 +1,77 @@
+.rellotje {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+.agulla-hores, .agulla-minuts, .agulla-segons, .centre {
+    position: absolute;
+    top: 50%;
+    left: 48.5%;
+}
+
+.agulla-hores {
+    width: 6px;
+    height: 50px;
+    background-color: black;
+    transform-origin: 100% 0%;
+    animation: rota-agulla-hores 43200s linear infinite;
+}
+
+.agulla-minuts {
+    width: 4px;
+    height: 70px;
+    background-color: black;
+    transform-origin: 100% 0%;
+    animation: rota-agulla-minuts 3600s linear infinite;
+}
+
+.agulla-segons {
+    width: 2px;
+    height: 80px;
+    background-color: red;
+    transform-origin: 100% 0%;
+    animation: rota-agulla-segons 60s linear infinite;
+}
+
+.centre {
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes rota-agulla-segons {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rota-agulla-minuts {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rota-agulla-hores {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

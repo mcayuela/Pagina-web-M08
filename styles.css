@@ -1,5 +1,12 @@
+:root {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 h1, h2, body {
@@ -7,15 +14,50 @@ h1, h2, body {
     font-family: Arial, sans-serif;
 }
 
+.titols-principals {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 4px solid rgb(105, 218, 203,);
+}
+
 h1 {
+    margin-top: -15px;
+    margin-bottom: 0;
     text-align: center;
-    display: block;
+    display: flex;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
     color: rgb(0, 0, 0);
+    border: 4px solid rgb(105, 218, 203);
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.contenidor {
+    display: flex;
+    width: 100%;
+}
+
+section {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.css {
+    padding-left: 10px;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 1em;
 }
 
 nav ul li a {
@@ -28,23 +70,29 @@ nav ul li a {
     border-radius: 4px;
 }
 
+ul {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: 4px solid rgb(105, 218, 203);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.titols-principals {
+    border: 4px solid rgb(105, 218, 203);
+    border-radius: 10px;
+    text-align: center;
+}
+
 div {
     display: flex; 
     justify-content: center;
 }
 
-.html {
-    margin-left: 100px;
-}
-
-section {
-    margin-right: 150px;
-    margin-left: 50px;
-}
-
 nav ul li a:hover {
     transition: 0.5s;
-    background-color: rgb(255, 75, 255);
+    background-color: rgb(105, 218, 203);
     color: rgb(0, 0, 0);
     box-shadow: 3px 3px;
     transform: translateY(1px);
@@ -53,13 +101,56 @@ nav ul li a:hover {
     border-width: 2px;
 }
 
-
-
 li {
     margin: 10px 10px 23px 10px;
 }
 
-body {
-    margin-top: 70px;
+section h2, h1, li, ul, .boto-apagar-neon {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgb(105, 218, 203), 0 0 10px rgb(105, 218, 203), 0 0 15px #fff, 0 0 25px rgb(105, 218, 203), 0 0 20px rgb(105, 218, 203), 0 0 30px rgb(105, 218, 203), 0 0 30px rgb(105, 218, 203), 0 0 50px rgb(105, 218, 203);
+}
+
+.titols-principals h2, ul, h1, label {
+    box-shadow: 0 0 10px rgb(105, 218, 203), 0 0 20px rgb(105, 218, 203), 0 0 30px rgb(105, 218, 203);
+}
+
+.boto-apagar-neon {
+    margin-top: 21.44px;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"] + label {
+    background-color: rgb(105, 218, 203);
+    border: 4px solid rgb(105, 218, 203);
+    margin-left: 5px;
+    margin-top: -15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    width: 10%;
+    color: #ffffff;
+}
+
+.svg-boto-apagar-neon {
+    width: 20px;
+    height: auto;
+}
+
+.apagar-neon h1, .apagar-neon h2, .apagar-neon ul, .apagar-neon li {
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.apagar-neon .boto-apagar-neon, .apagar-neon .titols-principals, .apagar-neon ul, .apagar-neon h1, .apagar-neon label{
+    text-shadow: none;
+    box-shadow: none;
+    border: 4px solid rgb(105, 218, 203, 0.5);
 }
