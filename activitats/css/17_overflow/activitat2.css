@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+  
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    th, td {
+      font-size: 14px;
+      align-items: center;
+    }
+
+    :root {
+        align-items: center;
+    }
+}

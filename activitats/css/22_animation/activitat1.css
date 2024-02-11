@@ -1,0 +1,29 @@
+div {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+
+.sol {
+    background-color: rgb(255, 255, 97);
+}
+
+.lluna {
+    background-color: rgb(131, 150, 167, 0.7);
+}
+
+@keyframes eclipse {
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.lluna {
+    animation-name: eclipse;
+    animation-duration: 10s;
+}
