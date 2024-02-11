@@ -3,6 +3,7 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
+    user-select: none;
 }
 
 body {
@@ -107,11 +108,11 @@ li {
 
 section h2, h1, li, ul, .boto-apagar-neon {
     color: #ffffff;
-    text-shadow: 0 0 10px rgb(105, 218, 203), 0 0 10px rgb(105, 218, 203), 0 0 15px #fff, 0 0 25px rgb(105, 218, 203), 0 0 20px rgb(105, 218, 203), 0 0 30px rgb(105, 218, 203), 0 0 30px rgb(105, 218, 203), 0 0 50px rgb(105, 218, 203);
+    text-shadow: 0 0 5px rgb(105, 218, 203), 0 0 10px rgb(105, 218, 203), 0 0 10px rgb(105, 218, 203), 0 0 20px rgb(105, 218, 203), 0 0 20px rgb(105, 218, 203), 0 0 5px rgb(105, 218, 203);
 }
 
-.titols-principals h2, ul, h1, label {
-    box-shadow: 0 0 10px rgb(105, 218, 203), 0 0 20px rgb(105, 218, 203), 0 0 30px rgb(105, 218, 203);
+.titols-principals, ul, h1 {
+    box-shadow: 0 0 5px rgb(105, 218, 203), 0 0 5px rgb(105, 218, 203), 0 0 20px rgb(105, 218, 203);
 }
 
 .boto-apagar-neon {
@@ -154,3 +155,8 @@ input[type="checkbox"] + label {
     box-shadow: none;
     border: 4px solid rgb(105, 218, 203, 0.5);
 }
+
+.apagar-neon label {
+    box-shadow: 0 0 5px rgb(105, 218, 203), 0 0 5px rgb(105, 218, 203), 0 0 20px rgb(105, 218, 203);
+}
+
