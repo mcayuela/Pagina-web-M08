@@ -1,0 +1,44 @@
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.contenidor {
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: rgb(236, 236, 236);
+    padding: 10px 40px;
+    max-width: 250px;
+}
+
+#telefon {
+    outline-color: rgb(255, 127, 232);
+}
+
+#nom {
+    outline-color: rgb(255, 127, 232);
+    width: 179px;
+}
+
+#telefon:hover, #nom:hover {
+    border: 0px;
+    transform: scale(1.1);
+    transition: 1.2s;
+}
+
+button {
+    background-color: rgb(255, 127, 232);
+    margin-left: 165px;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: white;
+    transition: 0.8s;
+}

@@ -1,0 +1,245 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.noria {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 100px auto;
+}
+
+.base {
+    width: 50px;
+    height: 15px;
+    background-color: black;
+    border-radius: 5%;
+    position: absolute;
+    bottom: 0;
+    top: 92%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cabina {
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate 10s linear infinite;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 20px solid black;
+    position: absolute;
+    top: 276px;
+    left: 155px;
+  }
+
+.persona1 {
+    width: 5px;
+    height: 5px;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 92%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    animation: rotate 10s linear infinite;
+}
+
+.persona2 {
+    width: 5px;
+    height: 5px;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 94%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    animation: rotate 10s linear infinite;
+}
+
+.persona3 {
+    width: 5px;
+    height: 5px;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 94%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+    animation: rotate 10s linear infinite;
+}
+
+.norieta {
+    width: 5px;
+    height: 5px;
+    border: 0
+    px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate 10s linear infinite;
+}
+
+.norieta1 {
+    width: 0px;
+    height: 200px;
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate1 20s linear infinite;
+}
+
+.norieta2 {
+    width: 0px;
+    height: 200px;
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: rotate(45deg);
+    animation: rotate2 20s linear infinite;
+}
+
+.norieta3 {
+    width: 0px;
+    height: 200px;
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate3 20s linear infinite;
+}
+
+.norieta4 {
+    width: 0px;
+    height: 200px;
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate4 20s linear infinite;
+}
+
+.norieta5 {
+    width: 0px;
+    height: 200px;
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate5 20s linear infinite;
+}
+
+.soport1 {
+    width: 0px;
+    height: 180px;
+    border: 5px solid black;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    transform: rotate(35deg);
+}
+
+.soport2 {
+    width: 0px;
+    height: 180px;
+    border: 5px solid black;
+    position: absolute;
+    top: 40%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+    transform: rotate(-35deg);
+}
+
+.soport3 {
+    width: 0px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: rotate(90deg);
+}
+
+.norieta:nth-child(1) { animation-delay: -2.5s; }
+.norieta:nth-child(2) { animation-delay: -5s; }
+.norieta:nth-child(3) { animation-delay: -7.5s; }
+.norieta:nth-child(4) { animation-delay: -10s; }
+.norieta:nth-child(5) { animation-delay: -12.5s; }
+
+.cabina-interna {
+    width: 180px;
+    height: 180px;
+    background-color: #ccc;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vagons {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 141, 211);
+    border-radius: 50%;
+    position: absolute;
+    top: 13%;
+    left: 49%;
+    transform-origin: 50% 400%;
+}
+
+.vagons:nth-child(1) { animation: rotate1 20s linear infinite; }
+.vagons:nth-child(2) { animation: rotate2 20s linear infinite; }
+.vagons:nth-child(3) { animation: rotate3 20s linear infinite; }
+.vagons:nth-child(4) { animation: rotate4 20s linear infinite; }
+.vagons:nth-child(5) { animation: rotate5 20s linear infinite; }
+
+@keyframes rotate1 {
+    0% { transform: translate(-50%, -150%) rotate(0deg); }
+    100% { transform: translate(-50%, -150%) rotate(360deg); }
+}
+
+@keyframes rotate2 {
+    0% { transform: translate(-50%, -150%) rotate(72deg); }
+    100% { transform: translate(-50%, -150%) rotate(432deg); }
+}
+
+@keyframes rotate3 {
+    0% { transform: translate(-50%, -150%) rotate(144deg); }
+    100% { transform: translate(-50%, -150%) rotate(504deg); }
+}
+
+@keyframes rotate4 {
+    0% { transform: translate(-50%, -150%) rotate(216deg); }
+    100% { transform: translate(-50%, -150%) rotate(576deg); }
+}
+
+@keyframes rotate5 {
+    0% { transform: translate(-50%, -150%) rotate(288deg); }
+    100% { transform: translate(-50%, -150%) rotate(648deg); }
+}

@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tot {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.arquitectura {
+    margin-bottom: 40px;
+}
+
+.arquitectura-titol {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.arquitectura-explicacio {
+    max-height: 10rem;
+    overflow-y: scroll;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
