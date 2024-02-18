@@ -45,9 +45,14 @@ a {
     color: #C778DD;
 }
 
-.linea-menu-lateral {
-    width: 2px;
-    height: 300px;
-    background-color: #ABB2BF;
-    margin: 30px;
+.contingut-principal {
+    align-items: center;
+    padding: 0 200px;
+}
+
+.avatar {
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
 }
