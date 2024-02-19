@@ -34,6 +34,10 @@ header {
     margin-bottom: 90px;
 }
 
+.contingut-principal {
+    top: 50%;
+}
+
 .menu-superior {
     list-style: none;
     display: flex;
@@ -175,6 +179,15 @@ a {
     margin-bottom: 20px;
 }
 
+.titol-formulari2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 100px;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -256,4 +269,16 @@ input[type="submit"]:hover {
     .avatar {
         width: 250px;
     }
+}
+
+.li-link-cv {
+    padding: 10px 20px;
+    border: 2px solid #C778DD;
+    border-radius: 5px;
+}
+
+.li-link-cv:hover {
+    color: black;
+    background-color: #C778DD;
+    animation: 10s;
 }
