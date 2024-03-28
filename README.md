@@ -26,9 +26,6 @@
     <main>
         <div class="contingut-principal">
             <div class="contenidor-superior">
-                <div class="contenidor-avatar">
-                    <img class="avatar" src="fotos-portafoli/avatar.png" alt="Imatge meva">
-                </div>
                 <div class="contenidor-iconos">
                     <a href="https://github.com/mcayuela" class="icono" target="_blank"><img class="foto-icono" src="fotos-portafoli/Github.svg" alt=""></a>
                     <a href="https://www.linkedin.com/in/marcel-cayuela-dolcet-1a29a62b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="icono"><img class="foto-icono" src="fotos-portafoli/Linkedin.svg" alt=""></a>
