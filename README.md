@@ -3,22 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafoli - Marcel Cayuela Dolcet</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="fotos-portafoli/favicon-32.png" type="image/x-icon">
 </head>
 <body>
     <header>
-        <div class="contenidor-titol-logo">
-            <img class="logo" src="" alt="">
-            <h1 class="titol"><span class="text-rosa">&lt &#47 &gt</span></h1>
-        </div>
         <nav>
             <ul class="menu-superior">
-                <li><a class="li-menu-superior" href="index.html"><span class="text-rosa">#</span>inici</a></li>
-                <li><a class="li-menu-superior" href="activitats2.html"><span class="text-rosa">#</span>activitats</a></li>
-                <li><a class="li-menu-superior" href="sobre-mi.html"><span class="text-rosa">#</span>sobre mi</a></li>
-                <li><a class="li-menu-superior" href="contacte.html"><span class="text-rosa">#</span>contacte</a></li>
+                <li><a class="li-menu-superior" href="index.html"><span class="text-rosa"></span>inici</a></li>
+                <li><a class="li-menu-superior" href="activitats2.html"><span class="text-rosa"></span>activitats</a></li>
+                <li><a class="li-menu-superior" href="sobre-mi.html"><span class="text-rosa"></span>sobre mi</a></li>
+                <li><a class="li-menu-superior" href="contacte.html"><span class="text-rosa"> </span>contacte</a></li>
                 <li><a class="li-link-cv" href="cv.html">CV</a></li>
             </ul>
         </nav>
